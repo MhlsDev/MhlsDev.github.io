@@ -125,3 +125,10 @@ h1 {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+.social img {
+  height: 35px;
+  padding: 0 5px;
+}
+.social img:hover {
+  color: black;
+}
