@@ -195,7 +195,7 @@ h1 {
 .modal-content {
     margin: auto;
     display: block;
-    max-width: 50em;
+    max-width: 600px;
 }
 
 /* Caption of Modal Image */
