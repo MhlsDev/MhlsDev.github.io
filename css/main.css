@@ -1,13 +1,12 @@
 /* Links */
+
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
-/*
- * Base structure
- */
+/* Basic structure */
 
 html,
 body {
@@ -29,9 +28,8 @@ body {
   max-width: 42em;
 }
 
-/*
- * Header
- */
+/* Header */
+
 .masthead {
   margin-bottom: 2rem;
 }
@@ -75,17 +73,18 @@ body {
 }
 
 
-/*
- * Cover
- */
+/* Center Box */
+
 .cover {
   padding: 0 1.5rem;
 }
+
 .cover .btn {
   padding: .75rem 1.25rem;
   font-weight: 400;
   font-size: 1.4rem;
 }
+
 .lead {
   font-size: 1.4rem;
   line-height: 1.8rem;
@@ -107,13 +106,15 @@ h1 {
   vertical-align: middle;
 }
 
-/*
- * Footer
- */
+/* Footer */
+
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
 .social img {
   height: 1.8em;
   padding: 0 5px;
 }
+
+/* Media */
