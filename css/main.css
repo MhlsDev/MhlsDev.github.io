@@ -15,6 +15,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 50em;
 }
 
 /* Header */
@@ -36,8 +37,9 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
-  font-size: 2.4rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #fff;
 }
 
 .nav-masthead .nav-link {
@@ -79,6 +81,10 @@ body {
   padding: 0 1.5rem;
 }
 
+.cover-heading {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
 .cover .btn {
   padding: .75rem 1.25rem;
   font-weight: 400;
@@ -88,7 +94,7 @@ body {
 .lead {
   font-size: 1.4rem;
   line-height: 1.8rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1 {
@@ -98,8 +104,8 @@ h1 {
 }
 
 .dot {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
   background-color: #343434;
   border-radius: 50%;
   display: inline-block;

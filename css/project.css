@@ -11,6 +11,7 @@ a:hover {
 html,
 body {
   background-image: url(../images/dark.png);
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 }
 
 .masthead {
-  min-width: 40em;
+  min-width: 48em;
 }
 
 h1 {
@@ -107,7 +108,7 @@ h1 {
 .tz-gallery .lightbox img {
   width: 100%;
   margin-bottom: 26px;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .tz-gallery .lightbox img:hover {
