@@ -1,4 +1,6 @@
- // Show an element
+/* More Show - Hide script */ 
+
+// Show an element
 var show = function (elem) {
 
 	// Get the natural height of the element
@@ -69,3 +71,20 @@ document.addEventListener('click', function (event) {
 	toggle(content);
 
 }, false);
+
+/* More-Less button Script */
+
+document.addEventListener('click', function(e) {
+  if (e.target.classList.contains('butnmore')) {
+    if (e.target.innerHTML == 'More') {
+      e.target.innerHTML = 'Less'
+    } else if (e.target.innerHTML == 'Less') {
+      e.target.innerHTML = 'More'
+    } else {
+      return;
+    }
+  }
+})
+
+
+/* new function */
