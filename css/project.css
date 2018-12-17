@@ -10,7 +10,7 @@ a:hover {
 
 html,
 body {
-  background-image: url(../images/dark.png);
+  background-color: rgb(30, 30, 34);
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -138,3 +138,5 @@ h1 {
   height: 1.8em;
   padding: 0 5px;
 }
+
+/* Media Queries */

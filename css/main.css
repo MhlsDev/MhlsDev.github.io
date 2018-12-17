@@ -11,7 +11,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url(../images/background.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,4 +123,4 @@ h1 {
   padding: 0 5px;
 }
 
-/* Media */
+/* Media Queries */
