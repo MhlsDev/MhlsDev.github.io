@@ -14,24 +14,31 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
+  padding-top: 30px;
 }
 
 .cover-container {
   align-items: center;
 }
 
-.masthead {
-  min-width: 50em;
-}
-
 /* Header */
+
+header {
+  padding-bottom: 100px;
+}
 
 .masthead {
   margin-bottom: 2rem;
+  min-width: 50em;
 }
 
 .masthead-brand {
@@ -76,11 +83,25 @@ body {
 /* Blog */
 
 .container {
-  padding-top: 50px;
-  max-width: 60em;
+  padding: 50px 0 50px 0;
+  background-color: rgb(35, 35, 39);
+  max-width: 100%;
+}
+
+.container-clr {
+  padding: 50px 0 50px 0;
+  max-width: 100%;
 }
 
 .post-container {
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  max-width: 65em;
+  margin: auto;
+}
+
+.post-container-colr {
   margin-top: 60px;
   margin-bottom: 50px;
 }
@@ -146,7 +167,9 @@ body {
 .butnmore {
   display: block;
   width: 90px;
-  margin: 5px auto;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 1px;
   border: 1px solid rgba(60, 60, 64);
   background-color: rgba(60, 60, 64);
   color: rgb(30, 30, 34);
