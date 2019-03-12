@@ -21,11 +21,11 @@ body {
 }
 
 .cover-container {
-  align-items: center;
+  max-width: 100%;
 }
 
 .masthead {
-  min-width: 50em;
+  padding: 0 50px;
 }
 
 h1 {
@@ -81,7 +81,7 @@ h1 {
 
 .container.gallery-container {
   min-height: 100vh;
-  margin: 20px 0 40px 0;
+  padding: 20px 0 40px 0;
 }
 
 .gallery-container h1 {

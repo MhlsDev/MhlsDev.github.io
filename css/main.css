@@ -26,14 +26,15 @@ body {
 }
 
 .cover-container {
-  max-width: 50em;
-  background-color: rgba(0, 0, 0, .4);
+  max-width: 100%;
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.55) 50%, rgba(0,0,0,0.4) 80%, rgba(0,212,255,0) 100%);
 }
 
 /* Header */
 
 .masthead {
   margin-bottom: 2rem;
+  padding: 0 50px;
 }
 
 .masthead-brand {
@@ -80,6 +81,8 @@ body {
 
 .cover {
   padding: 0 1.5rem;
+  max-width: 56rem;
+  margin: 0 auto;
 }
 
 .cover-heading {
