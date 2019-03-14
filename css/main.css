@@ -6,6 +6,11 @@ a:hover {
   color: #ffd000;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Basic structure */
 
 html,
@@ -27,20 +32,24 @@ body {
 
 .cover-container {
   max-width: 100%;
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.55) 50%, rgba(0,0,0,0.4) 80%, rgba(0,212,255,0) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.4) 80%, rgba(0,212,255,0) 100%);
 }
 
 /* Header */
 
 .masthead {
   margin-bottom: 2rem;
-  padding: 0 50px;
+}
+
+.inner-masthead {  
+  display: flex;
+  flex-direction: column;
 }
 
 .masthead-brand {
   margin-bottom: 0;
-  font-size: 2.4rem;
-  font-weight: 300;
+  font-size: 3.6rem;
+  font-weight: 100;
   color: #fff;
 }
 
@@ -67,15 +76,6 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
 
 /* Center Box */
 
@@ -87,7 +87,7 @@ body {
 
 .cover-heading {
   font-weight: 300;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
 }
 .cover .btn {
   padding: .75rem 1.25rem;
