@@ -3,26 +3,23 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
-}
-
-* {
-  margin: 0;
-  padding: 0;
+  color: #e3dab9;
 }
 
 /* Basic structure */
 
 html,
 body {
-  background-color: rgb(30, 30, 34);
+  background-color: #343233;
   font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
+  color: #e3dab9;
 }
 
 .cover-container {
@@ -40,7 +37,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.inner-masthead {  
+.inner-masthead {
   display: flex;
   flex-direction: column;
 }
@@ -49,21 +46,21 @@ h1 {
   margin-bottom: 0;
   font-size: 3.6rem;
   font-weight: 100;
-  color: #fff;
+  color: #f7cf3c;
 }
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 300;
   font-size: 1.6rem;
-  color: rgba(255, 255, 255, .5);
+  color: #6f6c6d;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: #6f6c6d;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -71,8 +68,8 @@ h1 {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #e3dab9;
+  border-bottom-color: #e3dab9;
 }
 
 /* Gallery */
@@ -94,7 +91,7 @@ h1 {
   max-width: 800px;
   margin: 5px auto;
   padding-bottom: 10px;
-  color: #888;
+  color: #6f6c6d;
   font-size: 18px;
 }
 
@@ -130,7 +127,10 @@ h1 {
 /* Footer */
 
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  border-top: 1px solid #1a191a;
+  background-color: #2c2a2b;
+  color: #6f6c6d;
+  padding: 20px 0 50px 0;
 }
 .social img {
   height: 1.8em;
